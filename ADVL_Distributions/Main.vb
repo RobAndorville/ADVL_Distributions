@@ -5363,7 +5363,7 @@ Public Class Main
             Exit Sub
         End If
 
-        'Check the fine name extension:
+        'Check the file name extension:
         If LCase(FileName).EndsWith(".distrib") Then
             FileName = IO.Path.GetFileNameWithoutExtension(FileName) & ".Distrib"
         ElseIf FileName.Contains(".") Then
